@@ -1,7 +1,5 @@
 import readline from "readline";
-import logger from "pino-pretty-logger";
 
-logger.info("Starting Pump.fun Bundler");
 export const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
